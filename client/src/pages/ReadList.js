@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import API from "../utils/API";
-import Navbar from '../components/Navbar';
+//import Navbar from '../components/Navbar';
 import JumboTrn from '../components/Jumbotron'
 import SvShelf from '../components/SvList'
 
@@ -27,7 +27,7 @@ class ReadList extends Component {
     render() {
         return (
             <>
-                <Navbar />
+                
                 <JumboTrn />
                 <Container>
                     <div className="resultDiv">
