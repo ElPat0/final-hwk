@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.scss';
-import Books from "./pages/Books";
-import Detail from "./pages/Detail";
+import Books from "./pages/Search";
+import Detail from "./pages/ReadList";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
+import Nav from "./components/Navbar";
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Books} />
           <Route exact path="/books" component={Books} />

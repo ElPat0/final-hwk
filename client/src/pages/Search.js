@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import API from "../utils/API";
 import { Button, Form, FormGroup, FormText, Input, Container } from 'reactstrap';
 import Navbar from '../components/Navbar'
-import Jumbo from '../components/Jumbotron'
-import BookHolder from '../components/Shelf'
+import Jumbotron from '../components/Jumbotron'
+import Shelf from '../components/Shelf'
 
 
 class SearchPage extends Component {
@@ -57,7 +57,7 @@ class SearchPage extends Component {
         return (
             <>
                 <Navbar />
-                <Jumbo />
+                <Jumbotron />
                 <Container>
                     <h4>Search for your book here!</h4>
                     <Form>
@@ -77,7 +77,7 @@ class SearchPage extends Component {
                             <div>
                                 <h3 className="mb-2">Search results!</h3>
                                 {this.state.books.map(book => (
-                                    <BookHolder key={book.id} title={book} savebook={this.saveBook} />
+                                    <Shelf key={book.id} title={book} savebook={this.saveBook} />
                                 ))}
                             </div>
                         ) : (
