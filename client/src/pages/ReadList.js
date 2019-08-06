@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
+import { Container } from 'react-strap';
 import API from "../utils/API";
 import Navbar from '../components/Navbar';
 import Jumbotron from '../components/Jumbotron'

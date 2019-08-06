@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import API from "../utils/API";
-import { Button, Form, FormGroup, FormText, Input, Container } from 'reactstrap';
+import { Button, Form, FormGroup, FormText, Input, Container } from 'react-strap';
 import Navbar from '../components/Navbar'
 import Jumbotron from '../components/Jumbotron'
 import Shelf from '../components/Shelf'
 
 
-class SearchPage extends Component {
+class Search extends Component {
 
     state = {
         books: [],
@@ -90,4 +90,4 @@ class SearchPage extends Component {
     }
 }
 
-export default SearchPage;
+export default Search;
