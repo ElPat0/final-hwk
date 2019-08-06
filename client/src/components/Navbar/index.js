@@ -7,7 +7,7 @@ import {
     Nav,
     NavItem,
     NavLink
-} from 'react-strap';
+} from 'reactstrap';
 
 export default class NavHeader extends React.Component {
     constructor(props) {

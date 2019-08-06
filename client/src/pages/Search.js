@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import API from "../utils/API";
-import { Button, Form, FormGroup, FormText, Input, Container } from 'react-strap';
+import { Button, Form, FormGroup, FormText, Input, Container } from 'reactstrap';
 import Navbar from '../components/Navbar'
 import Jumbotron from '../components/Jumbotron'
 import Shelf from '../components/Shelf'
