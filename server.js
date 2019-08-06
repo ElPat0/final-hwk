@@ -18,6 +18,9 @@ app.use(routes);
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist");
 
+//Google API
+//const GoogleBook = process.env.Google_Books_API;
+
 // Start the API server
 app.listen(PORT, function() {
   console.log(`API Server now listening on PORT ${PORT}!`);
