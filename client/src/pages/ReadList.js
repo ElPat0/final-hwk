@@ -3,7 +3,7 @@ import { Container } from 'react-strap';
 import API from "../utils/API";
 import Navbar from '../components/Navbar';
 import Jumbotron from '../components/Jumbotron'
-import SvShelf from '../components/SvShelf'
+import SvShelf from '../components/Svlist'
 
 class ReadList extends Component {
 
