@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import API from "../utils/API";
 import Navbar from '../components/Navbar';
-import Jumbotron from '../components/Jumbotron'
+import JumboTrn from '../components/Jumbotron'
 import SvShelf from '../components/SvList'
 
 class ReadList extends Component {
@@ -28,7 +28,7 @@ class ReadList extends Component {
         return (
             <>
                 <Navbar />
-                <Jumbotron />
+                <JumboTrn />
                 <Container>
                     <div className="resultDiv">
                         {this.state.books.length ? (

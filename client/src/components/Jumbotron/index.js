@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 
-const Jumbotron = () => {
+const JumboTrn = () => {
     return (
         <div>
             <Jumbotron fluid className="narrow">
@@ -14,4 +14,4 @@ const Jumbotron = () => {
     );
 };
 
-export default Jumbotron;
+export default JumboTrn;

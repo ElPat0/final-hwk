@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import API from "../utils/API";
 import { Button, Form, FormGroup, FormText, Input, Container } from 'reactstrap';
 import Navbar from '../components/Navbar'
-import Jumbotron from '../components/Jumbotron'
+import JumboTrn from '../components/Jumbotron'
 import Shelf from '../components/Shelf'
 
 
@@ -57,7 +57,7 @@ class Search extends Component {
         return (
             <>
                 <Navbar />
-                <Jumbotron />
+                <JumboTrn />
                 <Container>
                     <h4>Search for your book here!</h4>
                     <Form>
