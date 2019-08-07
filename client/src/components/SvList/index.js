@@ -15,7 +15,7 @@ const SvShelf = (props) => {
                             < CardTitle > <h3>{book.title}</h3></CardTitle>
                             <CardSubtitle><h5>{book.authors}</h5></CardSubtitle>
                             <CardText>{book.description}
-                                <a href={book.info} target="blank"><strong>see more...</strong></a>
+                                <a href={book.info} target="blank"><strong>Details</strong></a>
                             </CardText>
                             <Button color="primary" className="float-right" id={book._id} onClick={() => props.deletebook(book._id)}>Delete</Button>
                         </CardBody>

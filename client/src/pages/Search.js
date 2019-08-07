@@ -22,7 +22,7 @@ class Search extends Component {
     searchBook = (event) => {
         event.preventDefault();
         if (this.state.searchStr !== "") {
-            API.getBook(this.state.searchStr)
+            API.findBook(this.state.searchStr)
                 .then(res => {
                     console.log(res.data);
                     this.setState({
