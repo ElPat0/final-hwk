@@ -27,15 +27,15 @@ export default class NavHeader extends React.Component {
         return (
             <div>
                 <Navbar color="dark" light expand="md">
-                    <NavbarBrand href="/" style={{ 'color': 'blanchedalmond' }}>Google Books</NavbarBrand>
+                    <NavbarBrand href="/" style={{ 'color': 'white' }}>Google Books</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink style={{ 'color': 'blanchedalmond' }} href="/search">Search</NavLink>
+                                <NavLink style={{ 'color': 'white' }} href="/Search">Search</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink style={{ 'color': 'blanchedalmond' }} href="/saved">Saved</NavLink>
+                                <NavLink style={{ 'color': 'white' }} href="/ReadList">Saved</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

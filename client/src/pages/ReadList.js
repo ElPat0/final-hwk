@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import API from "../utils/API";
-//import Navbar from '../components/Navbar';
 import JumboTrn from '../components/Jumbotron'
 import SvShelf from '../components/SvList'
 
