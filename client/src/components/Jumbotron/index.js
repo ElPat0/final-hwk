@@ -6,8 +6,8 @@ const JumboTrn = () => {
         <div>
             <Jumbotron fluid className="narrow">
                 <Container fluid className="text-center">
-                    <h1 className="display-5">(React) Google Books Search</h1>
-                    <p className="lead">Search for and save books of your interest</p>
+                    <h1 className="display-5">Book Search</h1>
+                    
                 </Container>
             </Jumbotron>
         </div>
