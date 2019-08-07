@@ -44,7 +44,7 @@ class Search extends Component {
             title: savedBook[0].volumeInfo.title,
             author: savedBook[0].volumeInfo.authors,
             description: savedBook[0].volumeInfo.description,
-            image: savedBook[0].volumeInfo.imageLinks ? bookToSave[0].volumeInfo.imageLinks.thumbnail : imagePlaceHolder,
+            image: savedBook[0].volumeInfo.imageLinks ? SavedBook[0].volumeInfo.imageLinks.thumbnail : imagePlaceHolder,
             info: savedBook[0].volumeInfo.infoLink
         }
         console.log(bookDetails)
