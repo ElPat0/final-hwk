@@ -81,7 +81,7 @@ class Search extends Component {
                                 ))}
                             </div>
                         ) : (
-                                <h5><i>Your results will show up here if any!</i></h5>
+                                <h5><i>Your results here</i></h5>
                             )}
                     </div>
                 </Container>

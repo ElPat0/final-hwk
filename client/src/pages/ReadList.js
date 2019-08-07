@@ -33,11 +33,11 @@ class ReadList extends Component {
                     <div className="resultDiv">
                         {this.state.books.length ? (
                             <div>
-                                <h3 className="mb-2">Books in your list!</h3>
+                                <h3 className="mb-2">Reading List</h3>
                                 <SvShelf bookList={this.state.books} deletebook={this.deleteSavedBook} />
                             </div>
                         ) : (
-                                <h5><i>No books in your list yet!</i></h5>
+                                <h5><i>Books go here</i></h5>
                             )}
                     </div>
                 </Container>
