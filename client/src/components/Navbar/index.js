@@ -32,7 +32,7 @@ export default class NavHeader extends React.Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink style={{ 'color': 'white' }} href="/Search">Search</NavLink>
+                                <NavLink style={{ 'color': 'white' }} href="/">Search</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink style={{ 'color': 'white' }} href="/ReadList">Saved</NavLink>
