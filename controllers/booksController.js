@@ -17,10 +17,13 @@ module.exports = {
   },
   create: function(req, res) {
     db.Book
-      .create(req.body)
-      .then(x => console.log(x, req.body))
-      .then(dbModel => res.json(dbModel))
-      .catch(err => res.status(422).json(err));
+      .create(req.body,
+      function(err, param){
+        console.log(err, param)
+      })
+      //.then(x => console.log(x, req.body))
+      //.then(dbModel => res.json(dbModel))
+     // .catch(err => res.status(422).json(err));
   },
   update: function(req, res) {
     db.Book
