@@ -11,9 +11,9 @@ class ReadList extends Component {
     };
 
     componentDidMount = () => {
-        API.getBooks()
+        API.getList()
             .then(res => this.setState({ books: res.data }))
-            // .then(res => console.log(res.data))
+            
             .catch(err => console.log(err))
     }
 
