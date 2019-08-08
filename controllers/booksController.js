@@ -17,7 +17,8 @@ module.exports = {
   },
   create: function(req, res) {
     db.Book
-      .create(req.body)
+      .create(req.body);
+      console.log(req.body)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
@@ -35,3 +36,4 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   }
 };
+
