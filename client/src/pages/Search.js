@@ -22,7 +22,7 @@ class Search extends Component {
     searchBook = (event) => {
         event.preventDefault();
         if (this.state.searchStr !== "") {
-            API.findBook(this.state.searchStr)
+            API.getBook(this.state.searchStr)
                 .then(res => {
                     console.log(res.data);
                     this.setState({
@@ -62,7 +62,7 @@ class Search extends Component {
                             <Input type="text" name="searchStr" id="search-string" value={this.state.searchStr} placeholder="keywords" on
                                 onChange={this.handleInputChange} />
                         </FormGroup>
-                        <Button color="primary" type="submit" className="float-right" onClick={this.searchBook}>Search</Button>
+                        <Button color="primary" type="submit" className="float-right" id="srchBtn" onClick={this.searchBook}>Search</Button>
                         {/* To clear float */}
                         <div className="clearfix"></div>
                         <FormText color="muted" className="float-right">
